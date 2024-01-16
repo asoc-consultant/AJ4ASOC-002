@@ -4,6 +4,7 @@ on:
 jobs:
   scan:
     runs-on: ubuntu-latest
+    service_url: https://cloud.appscan.com/eu
     steps:
       - name: Checkout
         uses: actions/checkout@v3
